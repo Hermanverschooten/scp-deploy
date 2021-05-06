@@ -5,10 +5,10 @@
 <p align="center">
   <a href="https://docs.github.com/en/actions/creating-actions/about-actions#types-of-actions"><img alt="Action type" src="https://img.shields.io/badge/Docker%20action-262b31?logo=docker&logoColor=2496ed"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/marcodallasanta/ssh-scp-deploy"></a>
-  <a href="https://github.com/marcodallasanta/ssh-scp-deploy/actions?query=workflow%3ATest"><img alt="Pipeline status" src="https://github.com/marcodallasanta/ssh-scp-deploy/workflows/Test/badge.svg"></a>
+  <a href="https://github.com/Hermanverschooten/scp-deploy/actions?query=workflow%3ATest"><img alt="Pipeline status" src="https://github.com/Hermanverschooten/scp-deploy/workflows/Test/badge.svg"></a>
 </p>
 
-# ssh-scp-deploy
+# hv-scp-deploy
 
 ## ❔ Why should I use this action?
 
@@ -21,17 +21,17 @@ I use this action to deploy my personal projects to remote server, restarting th
 
 ## 👤 Author
 
-**Marco Dalla Santa**
+**Herman verschooten**
 
-* Twitter: [@marcodallasanta](https://twitter.com/marcodallasanta)
-* Github: [@marcodallasanta](https://github.com/marcodallasanta)
-* LinkedIn: [@marcodallasanta](https://linkedin.com/in/marcodallasanta)
-* StackOverflow: [@marcodallasanta](https://stackoverflow.com/story/marcodallasanta)
+* Twitter: [@HermvJr](https://twitter.com/HermvJr)
+* Github: [@Hermanverschooten](https://github.com/Hermanverschooten)
+* LinkedIn: [@Hermanverschooten](https://linkedin.com/in/herman-verschooten-38480220)
 
+This action was forked from Marco Dalla Santa
 
 ## ⚙️ Usage
 ```yaml
-    - uses: mdallasanta/ssh-scp-deploy@{version}
+    - uses: Hermanverschooten/hv-scp-deploy@{version}
       with:
         local: './'                                                  # Local file path - REQUIRED false - DEFAULT ./
         remote: '~/'                                                 # Remote file path - REQUIRED false - DEFAULT ~/
@@ -50,14 +50,16 @@ I use this action to deploy my personal projects to remote server, restarting th
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://github.com/mdallasanta/ssh-scp-deploy/issues).
+Feel free to check [issues page](https://github.com/Hermanverschooten/scp-deploy/issues).
 
 ## 🙏 Thanks
 
 Thanks to [Raphaël Bussa](https://github.com/raphaelbussa) for help in testing.
+Thanks to [Marco Dalla Santa](https://github.com/marcoallasanta) for the original.
 
 ## 📝 License
 
+Copyright © 2021 [Herman verschooten](https://github.com/Hermanverschooten)
 Copyright © 2020 [Marco Dalla Santa](https://github.com/marcoallasanta)
 
 The source code, scripts and documentation in this project are released under the [MIT License](LICENSE)

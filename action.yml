@@ -1,8 +1,8 @@
-name: 'ssh-scp-deploy'
+name: 'hv-scp-deploy'
 description: 'A GitHub Action that upload the artifact via scp and runs commands before or/and after.'
 author: 'Marco Dalla Santa'
 
-inputs: 
+inputs:
   local:
     description: 'Local file path'
     required: false
@@ -51,7 +51,7 @@ inputs:
     description: 'Flags to use during scp'
     required: false
     default:
-    
+
 runs:
   using: 'docker'
   image: 'Dockerfile'
